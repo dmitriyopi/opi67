@@ -1,0 +1,19 @@
+#include <iostream>
+#include <iomanip>  
+#include <windows.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double y,z;
+	cout << "Enter y =";
+	cin >> y;
+	int mul = 1;
+	int i;
+	for (i = 1; i <= 5; i++) mul *= i;
+	{
+		z = (cos(mul * i) + 2 * sin(y)) / (pow(y, 2) + 5);
+		cout << "z=" << z;
+	}
+
+}
